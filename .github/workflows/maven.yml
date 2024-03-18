@@ -35,6 +35,6 @@ jobs:
         image: aashraymunjal12/springboot-example
         tags: latest
         registry: docker.io
-        dockerfile: Dockerfile
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        dockerfile: Dockerfile.ci
+        username: ${{secrets.DOCKER_USERNAME}}
+        password: ${{secrets.DOCKER_PASSWORD}}
